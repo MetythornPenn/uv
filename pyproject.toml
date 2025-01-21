@@ -1,7 +1,7 @@
 [project]
 name = "uv"
 version = "0.1.0"
-description = "Add your description here"
+description = "Exploring UV"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [

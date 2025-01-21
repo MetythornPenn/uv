@@ -1,0 +1,17 @@
+[project]
+name = "uv"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "numpy>=2.2.2",
+    "requests<3.0.0",
+]
+
+[project.optional-dependencies]
+plot = [
+    "excel>=1.0.1",
+    "pandas>=2.2.3",
+]
